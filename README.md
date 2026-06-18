@@ -106,7 +106,7 @@ lib/
 
 ```
 POST https://api.dev.kpi-drive.ru/_api/indicators/get_mo_indicators
-Authorization: Bearer 5c3964b8e3ee4755f2cc0febb851e2f8
+Authorization: Bearer <YOUR_TOKEN>
 Content-Type: multipart/form-data
 
 period_start=2026-04-01
@@ -123,7 +123,7 @@ auth_user_id=40
 
 ```
 POST https://api.dev.kpi-drive.ru/_api/indicators/save_indicator_instance_field
-Authorization: Bearer 5c3964b8e3ee4755f2cc0febb851e2f8
+Authorization: Bearer <YOUR_TOKEN>
 Content-Type: multipart/form-data
 
 period_start=2026-04-01
